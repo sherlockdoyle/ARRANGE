@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+ARRANGE <sub><small>- a <sup><small>console based</small></sup> number game</small></sub>
+=
+**ARRANGE** is a small sized console based number arranging game. You need to arrange number in a 2D format. Like
+    1 2 3
+    4 5 6
+    7 8 9
+Once you run `Main.main` you will be asked the hardness level. You may either enter
+1. `easy`
+2. `moderate` or `medium`
+3. `hard`
+4. `n` for a `n by n` game.
+5. `m n` for a `m by n` game.
 
-You can use the [editor on GitHub](https://github.com/sherlockdoyle/ARRANGE/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+ARRANGE also understands natural language (somewhat and faked). You may enter `I want to play a easy game` or `Lets play a 100 by 200 game`.
+Once the game start you need to enter a number and the direction to move the number (two number will swap). Like
+    1 u
+    //To swap 1 with the number above (if available)
+Available options are
+1. `u` for UP
+2. `d` for DOWN
+3. `l` for LEFT
+4. `r` for RIGHT
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Again you may enter `Move 20 towards lEfT`.
+Enter `e` or `exit` anytime to exit from the game. Once you finish a game you can play again, enter `YES` or `NO`.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sherlockdoyle/ARRANGE/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+>Idea by- Shouvit Pradhan
